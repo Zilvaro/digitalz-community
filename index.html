@@ -18,22 +18,41 @@
 </head>
 
 <body>
-  <nav class="container navbar sticky-top navbar-light bg-light">
-    <a class="navbar-brand" href="#">
-      <img src="assets/images/red-digitalz-logo.png" width="auto" height="45em" alt="Logo DigitalZ">
-    </a>
-    <div class="dropdown">
-      <button class="btn btn-sm btn-info dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-        aria-expanded="false">
-        Community
-      </button>
-      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-        <a class="dropdown-item" href="#">Action</a>
-        <a class="dropdown-item" href="#">Another action</a>
-        <a class="dropdown-item" href="#">Something else here</a>
-      </div>
-    </div>
-  </nav>
+  <!--Navbar-->
+<nav class="navbar navbar-light light-blue lighten-4">
+
+  <!-- Navbar brand -->
+  <a class="navbar-brand logo" href="#"></a>
+  
+  <!-- Collapse button -->
+  <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+    aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i
+        class="fas fa-bars fa-1x"></i></span></button>
+
+  <!-- Collapsible content -->
+  <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+
+    <!-- Links -->
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Pricing</a>
+      </li>
+    </ul>
+    <!-- Links -->
+
+  </div>
+  <!-- Collapsible content -->
+
+</nav>
+<!--/.Navbar-->
+
+
 
   <section class="container pt-3">
     <div class="row" id="hero-image">
@@ -59,12 +78,10 @@
     <div class="row" id="line-row">
       <div class="col-12">
         This is my separation line
-        <hr class="block-divider block-divider--short block-divider--red">
+        <hr class="block-divider block-divider--short">
       </div>
     </div>
   </section>
-
-  <hr class="block-divider block-divider--short">
 
   <section class="container pt-3">
     <div class="row">
@@ -116,21 +133,21 @@
 
 
   <footer>
-    <div class="row no-gutters">
-      <div class="col">
-          <ul id="nav" class="list-inline menucontainer">
-              <li class="col-6 col-md-3 ui-menu-color-home list-inline-item menuitem">
-                  <a href="#" class="hvr-fade"><i class="fa-solid fa-house" aria-hidden="true"></i><span>Home</span></a>
-              </li>
-              <li class="col-6 col-md-3 ui-menu-color-resume list-inline-item menuitem">
-                  <a href="#" class="hvr-fade"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i><span>Resume</span></a>
-              </li>
-              <li class="col-6 col-md-3 ui-menu-color-contact list-inline-item menuitem">
-                  <a href="#" class="hvr-fade"><i class="fa-regular fa-comment" aria-hidden="true"></i><span>Contact</span></a>
-              </li>
-              <li class="col-6 col-md-3 ui-menu-color-download list-inline-item menuitem">
-                  <a href="#" class="hvr-fade"><i class="fa-solid fa-download" aria-hidden="true"></i><span>Download CV</span></a>
-              </li>
+    <div class="row no-gutters fixed-bottom">
+      <div class="col d-md-none">
+        <ul id="nav" class="list-inline menucontainer">
+          <li class="col-3 col-md-3 ui-menu-color list-inline-item menuitem">
+            <a href="#" class="hvr-fade active-footer"><i class="fa-solid fa-house" aria-hidden="true"></i></a>
+          </li>
+          <li class="col-3 col-md-3 ui-menu-color list-inline-item menuitem">
+            <a href="#" class="hvr-fade"><i class="fa-regular fa-comments" aria-hidden="true"></i></a>
+          </li>
+          <li class="col-3 col-md-3 ui-menu-color list-inline-item menuitem">
+            <a href="#" class="hvr-fade"><i class="fa-solid fa-share-nodes" aria-hidden="true"></i></a>
+          </li>
+          <li class="col-3 col-md-3 ui-menu-color list-inline-item menuitem">
+            <a href="#" class="hvr-fade"><i class="fa-solid fa-user" aria-hidden="true"></i></a>
+          </li>
       </div>
   </footer>
 

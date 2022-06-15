@@ -1,6 +1,24 @@
+/*--------Fonts---- font-family: 'DM Sans', sans-serif; font-family: 'Roboto', sans-serif; */
+
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&display=swap');
 
-/*--------Fonts---- font-family: 'DM Sans', sans-serif; font-family: 'Roboto', sans-serif; */
+
+/*---------------------------------------------  Body styles */
+
+body {
+    background-color: #fcfbfa;
+    background-image: url(../images/background-lines-blue.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1100px;
+    color: #111111;
+    margin: 0% auto;
+    padding: 0%;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+}
+
+
 
 /* Block dividers */
 
@@ -8,21 +26,119 @@
     width: 75px;
     height: 5px;
     border: 0;
-    background-color: #444;
-}
-
-.block-divider--orange {
-    background-color: #f05f40;
-}
-
-.block-divider--white {
-    background-color: white;
-}
-
-.block-divider--short {
-    width: 35px;
-}
-
-.block-divider--red {
     background-color: red;
 }
+
+
+/*---------------------------------------------  Heading */
+
+.navbar {
+    margin-bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .01);
+    border: 0;
+}
+
+.navbar-nav {
+    text-align: right;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    font-size: 25px;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
+.logo {
+    background: url("../images/red-digitalz-logo.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    min-height: 60px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+
+
+.title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    color: #000;
+}
+
+/*---------------------------------------------  Footer */
+
+footer {
+    margin: 0;
+}
+
+.ui-menu-color {
+    background-color: #E4EBF2;
+    
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav {
+    margin: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
+}
+
+.menuitem {
+    height: 40px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    height: 40px;
+}
+
+.menuitem a i {
+    padding-top: 7px;
+    display: block;
+    color: #222;
+    font-size: 22px;
+}
+
+.active-footer {
+    background-color: rgba(48, 89, 50, 0.3);
+}
+
+.active-footer i {
+    color: #305932;
+}
+
+/*---------------------------------------------  Hover.css */
+
+.hvr-fade:hover {
+    background: rgba(0, 0, 0, 0.2);
+    height: 40px;
+}
+
